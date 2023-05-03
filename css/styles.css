@@ -1,0 +1,252 @@
+:root { --backgr-color: #2E2F42;
+    --color-text: #434455;
+    --font-family-roboto: Roboto, sans-serif;
+
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0; 
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+img {
+    display: block;
+}
+
+body {
+    font-family: var(--font-family-roboto);
+    background: #FFFFFF;
+    color: var(--color-text);
+}
+
+/* <!-- Шапка сторінки --> */
+
+.logo,
+.logo-studio {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+    .container {
+        width: 1440px;
+        height: 72px;
+        justify-content: center;
+
+    } 
+
+.page-header{
+    width: 1440px;
+    height: 72px;
+        
+    display: flex;
+    align-items: center;
+    
+}
+.page-navigation {
+    display: flex;
+    column-gap: 76px;
+}
+.address-list {
+    display: flex;
+    column-gap: 332px;  
+}
+ .site-nav {
+    display: flex;
+    column-gap: 40px;
+ }
+
+
+.address-container {
+    display: flex;
+    justify-content: flex-end; 
+    
+}
+.auth-nav{
+   display: flex;
+    column-gap: 40px; 
+   
+ }
+.logo-studio {
+    color: var(--backgr-color);
+}
+
+.site-link {
+    font-family: var(--font-family-roboto);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: var(--backgr-color);
+}
+
+.address-list {
+    font-style: normal;
+    
+}
+
+.auth-nav-link {
+    font-family: var(--font-family-roboto);
+     font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    color: var(--color-text);
+}
+
+.site-link:hover,
+.site-link:focus,
+.auth-nav-link:hover,
+.auth-nav-link:focus{
+color: #404bbf;
+}
+
+/* Герой */
+
+.hero {
+    background: var(--backgr-color);
+width: 1440px;
+height: 600px;
+display: flex;
+}
+.hero-title {
+    padding: 188px 442px 188px 442px;
+    display: flex;
+}
+.button-hero {
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.hero-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+
+/* Button hero */
+.button-hero {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+}
+
+.button-hero:hover,
+.button-hero:focus {
+    color: #404bbf;
+    background-color: #404BBF;
+}
+
+/* Переваги */
+.section-advantages-title {
+    font-family: var(--font-family-roboto);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+
+}
+
+.title-advantages {
+    font-family: var(--font-family-roboto);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+    color: var(--backgr-color);
+
+}
+
+.item-advantages {
+    font-family: var(--font-family-roboto);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+
+    letter-spacing: 0.02em;
+    color: var(--color-text);
+}
+
+.section-team {
+    text-align: center;
+    background-color: #F4F4FD;
+}
+.section-team-li {
+    background-color: #FFFFFF;
+}
+
+/* Footer */
+.footer-item {
+    font-family: var(--font-family-roboto);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: #F4F4FD;
+}
+
+.footer {
+    background: var(--backgr-color);
+}
+
+.logo-studio-footer {
+    color: #F4F4FD;
+}
+
+.logo-fooder {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #4D5AE5;
+
+}
