@@ -25,7 +25,28 @@ button {
     text-align: center;
     letter-spacing: 0.04em;
 }
-
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0; 
+}
+img {
+    display: block;
+}
+.container {
+    width: 1128px;
+    margin-left: auto;
+    margin-left: auto;
+}
 body {
     font-family: var(--font-family-roboto);
     background: #FFFFFF;
@@ -33,6 +54,39 @@ body {
 }
 
 /* Heder */
+.container-header {
+    display: flex;
+    align-items: center;
+}
+.page-header {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
+}
+.page-navigation {
+    display: flex;
+    align-items: center;
+    column-gap: 76px;
+}
+
+.site-nav {
+    display: flex;
+    align-items: center; 
+    column-gap: 40px;
+}
+.address-list {
+    display: flex;
+    align-items: center; 
+    margin-left: auto;
+}
+.auth-nav {
+    display: flex;
+    align-items: center; 
+    column-gap: 40px;
+    
+}
 .logo,
 .logo-studio {
     color: #4D5AE5;
@@ -87,10 +141,19 @@ body {
 }
 
 /* button st2 */
+.button-list{
+    display: flex;
+align-items: center;
+column-gap: 24px;
+justify-content: center;
+padding-top: 96px;
+    padding-bottom: 72px;
+}
 
 .button-white {
     color: #4D5AE5;
     background: #F4F4FD;
+    
 
 }
 
@@ -103,6 +166,8 @@ body {
 /* Sectin Photo */
 .section-list {
     background: #FFFFFF;
+    flex-basis: calc((100% - 24px) / 3);
+    padding-bottom: 48px;
 }
 
 .title-advantages {
@@ -114,6 +179,9 @@ body {
 
 
     color: #2E2F42;
+    margin-bottom: 8px;
+    margin-top: 32px;
+    padding-left: 16px;
 
 }
 
@@ -124,9 +192,14 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 32px;
+    padding-left: 16px;
 
 }
-
+.section-list-photo {
+    display: flex;
+    flex-wrap: wrap;
+}
 /* Footer */
 .footer-item {
     font-family: var(--font-family-roboto);
@@ -141,6 +214,10 @@ body {
 
 .footer {
     background: var(--backgr-color);
+    width: 1440px;
+    height: 312px;
+    padding-left: 156px;
+    padding-top: 101px;
 }
 
 .logo-studio-footer {
@@ -159,4 +236,7 @@ body {
 
     color: #4D5AE5;
 
+}
+.footer-item {
+    padding: 17px 1020px 100px 0;
 }
