@@ -63,6 +63,7 @@ body {
     align-items: center;
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
     
 }
 .page-navigation {
@@ -70,7 +71,10 @@ body {
     align-items: center;
     column-gap: 76px;
 }
-
+.page-header-container {
+    display: flex;
+    align-items: center;
+}
 .site-nav {
     display: flex;
     align-items: center; 
@@ -136,6 +140,9 @@ body {
 }
 
 /* Main */
+.container-section{
+    padding: 96px 0 120px;
+}
 .main {
     background: #E5E5E5;
 }
@@ -146,7 +153,7 @@ body {
 align-items: center;
 column-gap: 24px;
 justify-content: center;
-padding-top: 96px;
+
     padding-bottom: 72px;
 }
 
