@@ -76,6 +76,7 @@ body {
     display: flex;
     align-items: center; 
     gap: 40px;
+    padding: 24px 0;
 }
 .address-list {
     display: flex;
@@ -97,6 +98,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 
 }
 
@@ -112,6 +114,7 @@ body {
     letter-spacing: 0.02em;
 
     color: var(--backgr-color);
+    padding: 24px 0
 }
 
 .address-list {
