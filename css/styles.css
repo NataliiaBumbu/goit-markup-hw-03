@@ -38,6 +38,7 @@ img {
     width: 1158px; 
     margin-left: auto;
     margin-left: auto;
+    padding: 0 15px;
    
 }
 .section {
@@ -74,7 +75,7 @@ body {
 .site-nav {
     display: flex;
     align-items: center; 
-    column-gap: 40px;
+    gap: 40px;
 }
 .address-list {
     display: flex;
@@ -84,7 +85,7 @@ body {
 .auth-nav {
     display: flex;
     align-items: center; 
-    column-gap: 40px;
+    gap: 40px;
     
 }
 .logo,
