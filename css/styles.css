@@ -35,11 +35,11 @@ img {
     display: block;
 }
 .container {
-    width: 1158px; 
+    width: 1158px;
     margin-left: auto;
     margin-left: auto;
     padding: 0 15px;
-   
+    margin: 0 auto;
 }
 .section {
     padding-top: 120px;
@@ -265,8 +265,7 @@ color: #404bbf;
     background: var(--backgr-color);
     width: 1440px;
 height: 312px;
-padding-left: 156px;
-padding-top: 101px;
+padding: 100px 0;
 }
 
 .logo-studio-footer {
