@@ -46,6 +46,7 @@ img {
     width: 1128px;
     margin-left: auto;
     margin-left: auto;
+    padding: 0 15px;
 }
 body {
     font-family: var(--font-family-roboto);
@@ -57,6 +58,7 @@ body {
 .container-header {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #e7e9fc;
 }
 .page-header {
     display: flex;
@@ -100,6 +102,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 
 }
 
@@ -115,6 +118,8 @@ body {
     letter-spacing: 0.02em;
 
     color: var(--backgr-color);
+    column-gap: 40px;
+    padding: 24px 0;
 }
 
 .address-list {
