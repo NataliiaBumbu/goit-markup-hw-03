@@ -290,6 +290,11 @@ color: #404bbf;
 .section-advantages-container{
     width: calc((100% - 72px) / 4);
 }
+.section-team-container {
+    display: flex;
+    gap: 24px;
+    text-align: center;   
+}
 .list-team {
    display: flex;
     gap: 24px;
