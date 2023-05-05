@@ -213,7 +213,10 @@ margin-bottom: 72px;
     display: flex;
     flex-wrap: wrap; 
 }
-
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap; 
+}
 .title-advantages {
     font-family: var(--font-family-roboto);
     font-weight: 500;
