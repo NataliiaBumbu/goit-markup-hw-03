@@ -35,6 +35,9 @@ img {
     display: block;
 }
 .container {
+    width: 1158px; 
+}
+.container {
     width: 1158px;
     margin-left: auto;
     margin-left: auto;
@@ -210,7 +213,7 @@ color: #404bbf;
     gap: 24px;
     justify-content: center;
     padding: 32px 16px;
-    list-style: none;
+    flex-wrap: wrap;
       
 }
 .section-list {
@@ -218,7 +221,7 @@ color: #404bbf;
     gap: 24px;
     justify-content: center;
     padding: 32px 16px;
-    list-style: none;
+    flex-wrap: wrap; 
     
    
     
@@ -299,10 +302,12 @@ color: #404bbf;
      
 
 .section-doing-list{
-    flex-basis: calc((100%-48px)/3); 
+    width: calc((100% - 48px) / 3);
+      
 }
 .section-advantages-container{
-    width: calc((100%-72px)/4); 
+    width: calc((100% - 72px) / 4); 
+   
 }
 .section-team-container {
     display: flex;
