@@ -35,11 +35,7 @@ img {
     display: block;
 }
 
-.container { width: 1158px;
-    margin-left: auto;
-    padding: 0 15px;
-    margin: 0 auto;
-}
+
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -47,6 +43,13 @@ img {
 
 .title {
     margin-bottom: 72px;
+}
+
+.container { 
+    width: 1158px;
+    margin-left: auto;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 body {
     font-family: var(--font-family-roboto);
@@ -213,17 +216,30 @@ color: #404bbf;
     
       
 }
+.section-advantages-container{
+    width: calc((100% - 72px) / 4); 
+    display: flex;
+    flex-wrap: wrap;
+      
+}
 .section-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
     justify-content: center;
     padding: 32px 16px;
-    flex-wrap: wrap; 
-    
-   
-    
+       
 }
+
+.section-doing-list {
+    padding: 32px 16px;
+    width: calc((100% - 48px) / 3);
+    display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+   
+
+} 
 .section-advantages-title {
     font-family: var(--font-family-roboto);
     font-style: normal;
@@ -286,15 +302,6 @@ color: #404bbf;
     padding: 120px 0;
  } 
 
-.section-doing-list {
-    padding: 32px 16px;
-    width: calc((100% - 48px) / 3);
-    display: flex;
-     justify-content: center;
-     flex-wrap: wrap;
-   
-
-} 
 .list-team {
    display: flex;
     gap: 24px;
@@ -304,13 +311,7 @@ color: #404bbf;
      
 
 
-.section-advantages-container{
-    width: calc((100% - 72px) / 4); 
-    display: flex;
-    flex-wrap: wrap;
-    
-   
-}
+
 .section-team-container {
     display: flex;
     gap: 24px;
