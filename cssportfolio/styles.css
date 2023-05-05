@@ -163,7 +163,7 @@ border: 1px solid #e7e9fc;
 border-radius: 4px; 
 gap: 24px;
 column-gap: 24px;
-
+margin-bottom: 72px;
 }
 
 .button-white {
@@ -195,12 +195,21 @@ column-gap: 24px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px; 
+    display: flex;
+    flex-wrap: wrap; 
+   
+    padding: 32px 16px;
+    
 
 }
 .section-list {
     background: #FFFFFF;
     flex-basis: calc((100% - 24px) / 3);
     padding-bottom: 48px;
+    column-gap: 24px; 
+    row-gap: 48px;
+    display: flex;
+    flex-wrap: wrap; 
 }
 
 .title-advantages {
@@ -232,6 +241,7 @@ column-gap: 24px;
 .section-list-photo {
     display: flex;
     flex-wrap: wrap;
+    
 }
 /* Footer */
 .footer-item {
@@ -271,5 +281,5 @@ column-gap: 24px;
 
 }
 .footer-item {
-    padding: 17px 1020px 100px 0;
+    
 }
