@@ -17,7 +17,7 @@ h2,
 h3,
 h4,
 p {
-    margin-top: 0;
+    margin: 0;
     margin-bottom: 0;
 }
 ul,
@@ -37,7 +37,7 @@ img {
 
 
 .section {
-    padding-top: 120px;
+
     padding-bottom: 120px;
 }
 
@@ -47,7 +47,6 @@ img {
 
 .container { 
     width: 1158px;
-    margin-left: auto;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -65,8 +64,7 @@ body {
 .page-header {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
     border-bottom: 1px solid #e7e9fc;
    
     
@@ -74,7 +72,7 @@ body {
 .page-navigation {
     display: flex;
     align-items: center;
-    column-gap: 76px;
+    
 }
 
 .site-nav {
@@ -103,12 +101,13 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
+    
 
 }
 
 .logo-studio {
     color: var(--backgr-color);
+    margin-right: 76px;
 }
 
 .site-link {
@@ -125,6 +124,7 @@ body {
 
 .address-list {
     font-style: normal;
+    color: #434455;
     
 }
 
@@ -149,12 +149,8 @@ color: #404bbf;
 
 .hero {
     background: var(--backgr-color);
-    width: 1440px;
-      padding: 188px 0;
-      
     
-      
-    
+    padding: 188px 0;    
 }
 
 .hero-title {
@@ -165,14 +161,14 @@ color: #404bbf;
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
+    margin-left: 320px;
+    
     
     
    
    
    
 }
-
-
 /* Button hero */
 .button-hero {
     color: #FFFFFF;
@@ -187,10 +183,8 @@ color: #404bbf;
     height: 56px;
     border: none; 
     border-radius: 4px;
-   
-
-     
-   
+    margin-left: 475px;
+margin-top: 48px;
 
 }
 
@@ -274,10 +268,8 @@ width: calc((100% - 48px) / 3);
 
     letter-spacing: 0.02em;
     color: var(--color-text);
-    margin-bottom: 32px;
     
-    display: flex;
-    flex-wrap: wrap;
+    
 }
 
 .section-team {
@@ -317,7 +309,26 @@ width: calc((100% - 48px) / 3);
  .section-team-title {
     padding: 32px 16px;
  }   
+.title-advantages-team
+{font-family: var(--font-family-roboto);
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
 
+color: var(--backgr-color);
+margin-bottom: 8px;
+}
+
+.item-advantages-team {
+    font-family: var(--font-family-roboto);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+
+    letter-spacing: 0.02em;
+    color: var(--color-text);   
+}
    
 
 /* Footer */
