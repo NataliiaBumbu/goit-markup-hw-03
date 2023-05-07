@@ -111,12 +111,14 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    
 
 }
-
+.logo {
+    margin-right: 76px;
+}
 .logo-studio {
     color: var(--backgr-color);
-    margin-right: 76px;
 }
 
 .site-link {
@@ -156,29 +158,30 @@ body {
 /* Main */
 .container-section {
     padding: 96px 0 120px;
+    
 }
 
-.main {
-    background: #E5E5E5;
-}
+
 
 /* button st2 */
 .button-list {
     display: flex;
+    justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
 }
-.button-list-white {
-    justify-content: center;
-}
+
 .button-white {
     color: #4D5AE5;
     background: #F4F4FD;
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
+    
 
-
+}
+.button-list-white{
+    justify-content: center; 
 }
 
 .button-white:focus,
@@ -198,6 +201,7 @@ body {
     border: 1px solid #e7e9fc;
     border-top: none;
     padding: 32px 16px;
+    
 
 
 }
@@ -205,7 +209,8 @@ body {
 .section-list {
     background: #FFFFFF;
     width: calc((100% - 48px) / 3);
-    padding-bottom: 48px;
+    margin-bottom: 8px;
+    
 }
 
 
